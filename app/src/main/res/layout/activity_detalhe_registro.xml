@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detahle.detalhe_registro">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:text="@string/txt_mostrar_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/mostrar_titulo"
+                android:text="@string/txt_mostrar_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:text="@string/txt_mostrar_conta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/mostrar_conta"
+                android:text="@string/mostrar_conta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:text="@string/txt_mostrar_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/mostrar_usuario"
+                android:text="@string/mostrar_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:text="@string/txt_mostrar_senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="20sp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:passwordToggleEnabled="true">
+
+
+                <EditText
+                    android:id="@+id/mostrar_senha"
+                    android:text="@string/mostrar_senha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textSize="20sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:text="@string/txt_mostrar_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/mostrar_site"
+                android:text="@string/mostrar_conta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000"/>
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:text="@string/txt_mostrar_nota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="20sp"/>
+
+            <!--Dato-->
+            <TextView
+                android:id="@+id/mostrar_nota"
+                android:text="@string/mostrar_nota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#000"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

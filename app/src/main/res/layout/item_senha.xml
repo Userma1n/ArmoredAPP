@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_icone_seguro"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icone_seguro"
+            android:layout_centerVertical="true"
+            android:padding="8dp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_toStartOf="@id/b_mais_opcoes"
+            android:layout_toEndOf="@+id/img_icone_seguro"
+            android:layout_marginStart="2dp">
+
+            <TextView
+                android:id="@+id/item_titulo"
+                android:text="@string/item_titulo"
+                android:fontFamily="@font/opensans_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/item_conta"
+                android:text="@string/item_conta"
+                android:fontFamily="@font/opensans_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/item_usuario"
+                android:text="@string/item_usuario"
+                android:fontFamily="@font/opensans_regular"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/item_senha"
+                android:text="@string/item_senha"
+                android:fontFamily="@font/opensans_regular"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/item_site"
+                android:text="@string/item_site"
+                android:fontFamily="@font/opensans_regular"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/item_nota"
+                android:text="@string/item_nota"
+                android:fontFamily="@font/opensans_regular"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/b_mais_opcoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/icone_maisopcoes"
+            android:contentDescription=" "
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

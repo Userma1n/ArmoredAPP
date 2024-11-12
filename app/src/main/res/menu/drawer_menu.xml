@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/Opcao_Todas"
+        android:title="@string/Opcao_Todas"
+        android:icon="@drawable/icone_todas"
+        />
+
+    <item
+        android:id="@+id/Opcao_Configuracoes"
+        android:title="@string/Opcao_Configuracoes"
+        android:icon="@drawable/icone_configuracoes"
+        />
+
+    <item
+        android:id="@+id/Opcao_Sair"
+        android:title="@string/Opcao_Sair"
+        android:icon="@drawable/icone_sair"/>
+
+</menu>

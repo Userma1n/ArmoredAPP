@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Armored App [BETA]</string>
+
+    <!--Drawer menu-->
+    <string name="Opcao_Todas">Todas</string>
+    <string name="Opcao_Configuracoes">Configurações</string>
+    <string name="Opcao_Sair">Sair</string>
+
+    <string name="Fab_Adicionar_senha">Adicionar</string>
+    <!--DrawerLayout-->
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+
+    <string name="add_titulo">Título</string>
+    <string name="add_conta">Conta</string>
+    <string name="add_usuario">Nome de Usuario</string>
+    <string name="add_senha">Senha</string>
+    <string name="add_site">Site</string>
+    <string name="add_nota">Nota</string>
+
+    <string name="salvar_senha">Salvar</string>
+
+    <string name="item_titulo">Titulo</string>
+    <string name="item_conta">Conta</string>
+    <string name="item_usuario">Usuario</string>
+    <string name="item_senha">Senha</string>
+    <string name="item_site">Site</string>
+    <string name="item_nota">Nota</string>
+
+    <string name="Totalregistros">Total de Registros</string>
+    <string name="total"> -- </string>
+    <string name="totalCerto">Certo</string>
+
+    <string name="Numero_Registros">Número de Registros</string>
+
+    <string name="txt_mostrar_titulo">Título: </string>
+    <string name="mostrar_titulo"> -- </string>
+    <string name="txt_mostrar_conta">Conta: </string>
+    <string name="mostrar_conta"> -- </string>
+    <string name="txt_mostrar_usuario">Usuario: </string>
+    <string name="mostrar_usuario"> -- </string>
+    <string name="txt_mostrar_senha">Senha: </string>
+    <string name="mostrar_senha"> -- </string>
+    <string name="txt_mostrar_site">Site: </string>
+    <string name="mostrar_site"> -- </string>
+    <string name="txt_mostrar_nota">Nota: </string>
+    <string name="mostrar_nota"> -- </string>
+
+    <string name="editar_registro">Editar</string>
+    <string name="excluir_registor">Excluir</string>
+
+    <string name="txtbemvindos">Bem-Vindo(a)!</string>
+    <string name="txtmensagem">Por favor, cadastre sua senha de acesso!</string>
+    <string name="txtmensagem_outra">Por favor, coloque sua senha para fazer login!</string>
+    <string name="senha_mestre">Senha</string>
+    <string name="senha_mestre_C">Confirme a senha</string>
+    <string name="botao_registrar">Cadastrar</string>
+    <string name="Botao_Entrar">Entrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
